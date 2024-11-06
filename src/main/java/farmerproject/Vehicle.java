@@ -1,6 +1,6 @@
 package farmerproject;
 
-public abstract class Vehicle implements Rideable{
+public abstract class Vehicle implements Rideable, NoiseMaker{
     private String color;
     public final String NAME;
     private double price;

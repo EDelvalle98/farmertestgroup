@@ -36,4 +36,9 @@ public class CropDuster extends FarmVehicle implements AirCraft{
     public void getOff() {
         System.out.println("hop out of the plane");
     }
+
+    @Override
+    public void makeNoise() {
+        System.out.println("AirPlane noises");
+    }
 }

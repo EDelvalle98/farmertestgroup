@@ -20,4 +20,8 @@ public class Tractor extends FarmVehicle {
         System.out.println("Getting off tractor");
     }
 
+    @Override
+    public void makeNoise() {
+        System.out.println("Tractor Noises");
+    }
 }

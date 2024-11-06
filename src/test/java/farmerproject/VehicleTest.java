@@ -19,8 +19,8 @@ class VehicleTest {
     @DisplayName("Testing Rideable implementation")
     void rideableImplementationsTest(){
 
-        Assertions.assertTrue(tractor instanceof Rideable, "Implementation -> False");
-        Assertions.assertTrue(cropduster instanceof Rideable, "Implementation -> False");
+        Assertions.assertTrue(tractor instanceof Rideable, "Implementation -> False (tractor)");
+        Assertions.assertTrue(cropduster instanceof Rideable, "Implementation -> False (cropduster)");
 
         System.out.println("Rideable Implementations work");
     }
@@ -29,8 +29,8 @@ class VehicleTest {
     @DisplayName("Test AirCraft implementation")
     void airCraftImplementationTest(){
 
-        Assertions.assertTrue(cropduster instanceof AirCraft, "Implementation -> False");
-        Assertions.assertFalse(tractor instanceof AirCraft, "Implementation -> True");
+        Assertions.assertTrue(cropduster instanceof AirCraft, "Implementation -> False (tractor)");
+        Assertions.assertFalse(tractor instanceof AirCraft, "Implementation -> False (cropduster)");
 
         System.out.println("AirCraft Implementations work");
     }
@@ -54,6 +54,14 @@ class VehicleTest {
         System.out.println("setPrice Method works");
     }
 
+    @Test
+    @DisplayName("Test NoiseMaker Implementations")
+    void noiseMakerImplementations(){
 
+        Assertions.assertTrue(tractor instanceof NoiseMaker, "Implementation -> False (tractor)");
+        Assertions.assertTrue(cropduster instanceof NoiseMaker,"Implementation -> False (cropduster)");
+
+        System.out.println("NoiseMaker Implementations work");
+    }
 
 }
