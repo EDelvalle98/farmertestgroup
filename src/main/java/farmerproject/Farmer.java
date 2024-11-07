@@ -26,7 +26,7 @@ public class Farmer implements Rider, Botanist, Eater {
     }
 
     @Override
-    public void plant(Crop crop, Croprow croprow) {
+    public void plant(Crop crop, CropRow croprow) {
 
     }
 
