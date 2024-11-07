@@ -4,6 +4,7 @@ public class Tractor extends FarmVehicle {
     public Tractor(String color, String name, double price) {
         super(color, name, price);
     }
+    public void harvest (Crop crop){}
 
     @Override
     public boolean canBeRiden() {
