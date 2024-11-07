@@ -23,7 +23,7 @@ class HorseTest {
     @org.junit.jupiter.api.Test
     void testSetAge() {
         horse.setAge(7);
-        Assertions.assertEquals(7, horse.getName());
+        Assertions.assertEquals(7, horse.getAge());
     }
 
     @org.junit.jupiter.api.Test
