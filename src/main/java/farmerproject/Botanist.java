@@ -1,5 +1,5 @@
 package farmerproject;
 
 public interface Botanist {
-    void plant(Crop crop,Croprow croprow);
+    void plant(Crop crop,CropRow croprow);
 }
